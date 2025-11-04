@@ -1,0 +1,32 @@
+{
+  "baseline_metrics": {
+    "accuracy": 0.9095097677847401,
+    "precision": 0.34560906515580736,
+    "recall": 0.8937728937728938,
+    "f1_score": 0.49846782431052095,
+    "timestamp": "2025-11-04T03:40:19.016824",
+    "model_type": "baseline"
+  },
+  "retrained_metrics": {
+    "accuracy": 0.9106155547364541,
+    "precision": 0.34770114942528735,
+    "recall": 0.8864468864468864,
+    "f1_score": 0.499484004127967,
+    "timestamp": "2025-11-04T03:40:31.052968",
+    "model_type": "retrained",
+    "training_samples": 30742
+  },
+  "improvements": {
+    "accuracy": 0.0011057869517139274,
+    "precision": 0.002092084269479988,
+    "recall": -0.007326007326007411,
+    "f1_score": 0.0010161798174460612
+  },
+  "drift_info": {
+    "drift_detected": true,
+    "drift_score": 0.1680465994424531,
+    "features_with_drift": 16
+  },
+  "recommendation": "Models perform similarly - use retrained for recency",
+  "selected_model": "retrained"
+}

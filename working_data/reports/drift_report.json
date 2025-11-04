@@ -1,0 +1,199 @@
+{
+  "numerical_drift": {
+    "age": {
+      "ks_statistic": 0.10127016065325462,
+      "ks_pvalue": 1.9227512124700497e-57,
+      "psi": 0.06588872470741695,
+      "drift_detected": true,
+      "baseline_mean": 41.25479262672811,
+      "production_mean": 39.58902897589029
+    },
+    "balance": {
+      "ks_statistic": 0.08528271038278101,
+      "ks_pvalue": 7.735571018903894e-41,
+      "psi": 0.04545228729965823,
+      "drift_detected": true,
+      "baseline_mean": 1292.3873732718894,
+      "production_mean": 1307.2805795178058
+    },
+    "day_of_week": {
+      "ks_statistic": 0.26012102252978164,
+      "ks_pvalue": 0.0,
+      "psi": 0.8415980291085178,
+      "drift_detected": true,
+      "baseline_mean": 17.01930875576037,
+      "production_mean": 13.59533289095333
+    },
+    "duration": {
+      "ks_statistic": 0.04562246638064871,
+      "ks_pvalue": 5.534952558088772e-12,
+      "psi": 0.011957384822976503,
+      "drift_detected": true,
+      "baseline_mean": 252.64884792626728,
+      "production_mean": 263.80966600309665
+    },
+    "campaign": {
+      "ks_statistic": 0.14358630538286765,
+      "ks_pvalue": 2.6833947939435217e-115,
+      "psi": 0.1548268156253487,
+      "drift_detected": true,
+      "baseline_mean": 3.209585253456221,
+      "production_mean": 2.12751603627516
+    },
+    "pdays": {
+      "ks_statistic": 0.3100059935355438,
+      "ks_pvalue": 0.0,
+      "psi": 0.05660284443369938,
+      "drift_detected": true,
+      "baseline_mean": 3.160967741935484,
+      "production_mean": 80.12508294625083
+    },
+    "previous": {
+      "ks_statistic": 0.3100059935355438,
+      "ks_pvalue": 0.0,
+      "psi": 1.1009955411624978e-07,
+      "drift_detected": true,
+      "baseline_mean": 0.08129032258064516,
+      "production_mean": 1.0336208803362088
+    }
+  },
+  "categorical_drift": {
+    "job": {
+      "chi2_statistic": 977.9811052039377,
+      "chi2_pvalue": 1.0497926033434163e-202,
+      "drift_detected": true
+    },
+    "marital": {
+      "chi2_statistic": 425.7208092638846,
+      "chi2_pvalue": 3.596672154831782e-93,
+      "drift_detected": true
+    },
+    "education": {
+      "chi2_statistic": 73.01378072462175,
+      "chi2_pvalue": 9.654547411499863e-16,
+      "drift_detected": true
+    },
+    "default": {
+      "chi2_statistic": 43.089014594853964,
+      "chi2_pvalue": 5.230511696089232e-11,
+      "drift_detected": true
+    },
+    "housing": {
+      "chi2_statistic": 197.51746852092816,
+      "chi2_pvalue": 7.270970306281558e-45,
+      "drift_detected": true
+    },
+    "loan": {
+      "chi2_statistic": 76.44230820827869,
+      "chi2_pvalue": 2.267411404061047e-18,
+      "drift_detected": true
+    },
+    "contact": {
+      "chi2_statistic": 8074.399421930146,
+      "chi2_pvalue": 0.0,
+      "drift_detected": true
+    },
+    "month": {
+      "chi2_statistic": 41750243.493276514,
+      "chi2_pvalue": 0.0,
+      "drift_detected": true
+    },
+    "poutcome": {
+      "chi2_statistic": 33352.72147318551,
+      "chi2_pvalue": 0.0,
+      "drift_detected": true
+    }
+  },
+  "overall_drift_detected": true,
+  "drift_score": 0.1680465994424531,
+  "significant_drifts": [
+    {
+      "feature": "age",
+      "type": "numerical",
+      "psi": 0.06588872470741695,
+      "ks_pvalue": 1.9227512124700497e-57
+    },
+    {
+      "feature": "balance",
+      "type": "numerical",
+      "psi": 0.04545228729965823,
+      "ks_pvalue": 7.735571018903894e-41
+    },
+    {
+      "feature": "day_of_week",
+      "type": "numerical",
+      "psi": 0.8415980291085178,
+      "ks_pvalue": 0.0
+    },
+    {
+      "feature": "duration",
+      "type": "numerical",
+      "psi": 0.011957384822976503,
+      "ks_pvalue": 5.534952558088772e-12
+    },
+    {
+      "feature": "campaign",
+      "type": "numerical",
+      "psi": 0.1548268156253487,
+      "ks_pvalue": 2.6833947939435217e-115
+    },
+    {
+      "feature": "pdays",
+      "type": "numerical",
+      "psi": 0.05660284443369938,
+      "ks_pvalue": 0.0
+    },
+    {
+      "feature": "previous",
+      "type": "numerical",
+      "psi": 1.1009955411624978e-07,
+      "ks_pvalue": 0.0
+    },
+    {
+      "feature": "job",
+      "type": "categorical",
+      "chi2_pvalue": 1.0497926033434163e-202
+    },
+    {
+      "feature": "marital",
+      "type": "categorical",
+      "chi2_pvalue": 3.596672154831782e-93
+    },
+    {
+      "feature": "education",
+      "type": "categorical",
+      "chi2_pvalue": 9.654547411499863e-16
+    },
+    {
+      "feature": "default",
+      "type": "categorical",
+      "chi2_pvalue": 5.230511696089232e-11
+    },
+    {
+      "feature": "housing",
+      "type": "categorical",
+      "chi2_pvalue": 7.270970306281558e-45
+    },
+    {
+      "feature": "loan",
+      "type": "categorical",
+      "chi2_pvalue": 2.267411404061047e-18
+    },
+    {
+      "feature": "contact",
+      "type": "categorical",
+      "chi2_pvalue": 0.0
+    },
+    {
+      "feature": "month",
+      "type": "categorical",
+      "chi2_pvalue": 0.0
+    },
+    {
+      "feature": "poutcome",
+      "type": "categorical",
+      "chi2_pvalue": 0.0
+    }
+  ],
+  "drift_percentage": 100.0
+}
