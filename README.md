@@ -423,6 +423,6 @@ This project demonstrates:
 
 ## 📄 License
 
- 
+This project is for educational purposes as part of IE7374 MLOps coursework at Northeastern University.
 
 ---
